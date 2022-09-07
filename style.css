@@ -12,6 +12,10 @@ body {
   color: var(--green) !important;
 }
 
+.color-black {
+  color: var(--black) !important;
+}
+
 .headline {
   background: url("images/background.svg") no-repeat center center;
 }
@@ -82,3 +86,29 @@ section.about .card  img {
   width: 48px;
 }
 
+.form-p {
+  font-size: 30px;
+  line-height: 52px;
+}
+
+.contact-frame-2 {
+  height: 100px;
+  z-index: -1;
+  left: 250px;
+  top: 450px;
+}
+
+.contact-frame-1 {
+  height: 350px;
+  z-index: -1;
+  top: 100px;
+}
+
+.contact-frame-3 {
+  height: 370px;
+  z-index: -1;
+}
+
+#floatingTextarea2 {
+  height: 120px;
+}

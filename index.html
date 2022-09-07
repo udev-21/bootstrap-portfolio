@@ -13,7 +13,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container overflow-hidden">
     <section class="headline">
       <ul class="nav justify-content-center">
         <li class="nav-item">
@@ -244,36 +244,57 @@
         </div> 
       </div>
     </section>
-    <section class="contact-form">
-      <div>
-        <div>
-          <p>I'm always interested in hearing about new projects, 
-          so if you'd like to chat please get in touch.</p>
+    <section class="contact-form text-center my-5 py-5">
+      <div class="container col-11 position-relative">
+        <div class="row row-cols-2">
+          <div class="col-5 d-flex align-items-center justify-content-center">
+            <p class="color-black fw-bold form-p">I'm always interested in hearing<br> about new projects, 
+            so if you'd<br> like to chat please get in touch.</p>
+          </div>
+          <div class="col-7">
+            <form action="https://formspree.io/f/mnqrnyba" method="POST">
+              <div class="row row-col-2">
+                <div class="input-group mb-3 col">
+                  <input type="text" class="form-control" name="firstname" required maxlength="30" placeholder="Firstname" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3 col">
+                  <input type="text" class="form-control" placeholder="Lastname" required maxlength="30" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-group mb-3 col">
+                  <input type="email" class="form-control" placeholder="E-mail" name="email" required aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-floating col mb-3">
+                <textarea class="form-control" placeholder="Leave a message here" name="message" required maxlength="500" id="floatingTextarea2" ></textarea>
+                <label class="p-4" for="floatingTextarea2">Leave a message here</label>
+              </div>
+              <div class="row">
+                <div class="text-start">
+                  <button class="btn col-3">Get in touch</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="col-6">
-          <form action="">
-            <div class="row row-col-2">
-              <div class="input-group mb-3 col">
-                <input type="text" class="form-control" placeholder="Firstname" aria-label="Username" aria-describedby="basic-addon1">
-              </div>
-              <div class="input-group mb-3 col">
-                <input type="text" class="form-control" placeholder="Lastname" aria-label="Username" aria-describedby="basic-addon1">
-              </div>
-            </div>
-            <div class="row">
-            <div class="input-group mb-3 col">
-              <input type="text" class="form-control" placeholder="E-mail" aria-label="Username" aria-describedby="basic-addon1">
-            </div>
-            </div>
-            <div class="row">
-              <div class="form-floating col">
-              <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2" style="height: 100px"></textarea>
-              </div>
-           </div>
-          </form>
-         </div>
+        <img class="contact-frame-1 position-absolute top-100 start-0 translate-middle" src="images/contact-frame1.svg" alt="contact-frame1">
+        <img class="contact-frame-2 position-absolute top-100 translate-middle" src="images/contact-frame2.svg" alt="contact-frame2">
+        <img class="contact-frame-3 position-absolute top-100 start-100 translate-middle" src="images/contact-frame3.svg" alt="contact-frame3">
       </div>
     </section>
+    <footer class="mt-5 text-center">
+      <div class="row">
+        <div class="col p-2 border-top">
+          <img class="mx-2" src="images/github-icon.svg" alt="github">
+          <img class="mx-2" src="images/linkedin-icon.svg" alt="linkedin">
+          <img class="mx-2" src="images/angellist-icon.svg" alt="angellist">
+          <img class="mx-2" src="images/twitter-icon.svg" alt="twitter">
+          <img class="mx-2" src="images/medium-icon.svg" alt="medium">
+        </div>
+      </div>
+    </footer>
 
   </div>
 
