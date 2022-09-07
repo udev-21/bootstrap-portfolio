@@ -1,4 +1,4 @@
-:root{
+:root {
   --black: #172b4d;
   --green: #36b37e;
 }
@@ -61,7 +61,7 @@ section.recent-works .card > img {
 .btn:hover {
   background: #36b37f;
   color: #fff;
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .btn:active {
@@ -81,7 +81,7 @@ section.about .card .icon-wrapper {
   align-items: center;
 }
 
-section.about .card  img {
+section.about .card img {
   height: 48px;
   width: 48px;
 }
