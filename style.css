@@ -9,13 +9,12 @@ body {
 }
 
 .color-green {
-  color: var(--green);
+  color: var(--green) !important;
 }
 
 .headline {
   background: url("images/background.svg") no-repeat center center;
 }
-
 
 .card {
   border: 1px solid #d0d9d4;
@@ -28,7 +27,7 @@ body {
   border-radius: 8px;
 }
 
-.card > img {
+section.recent-works .card > img {
   height: 250px;
   width: 360px;
 }
@@ -64,4 +63,21 @@ body {
 .btn:active {
   background: #008552;
   color: #fff;
+}
+
+section.about .card {
+  min-height: 400px;
+}
+
+section.about .card .icon-wrapper {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.about .card  img {
+  height: 48px;
+  width: 48px;
 }
