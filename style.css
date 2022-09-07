@@ -1,0 +1,114 @@
+:root {
+  --black: #172b4d;
+  --green: #36b37e;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+
+.color-green {
+  color: var(--green) !important;
+}
+
+.color-black {
+  color: var(--black) !important;
+}
+
+.headline {
+  background: url("images/background.svg") no-repeat center center;
+}
+
+.card {
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  background: #ebf0ee;
+}
+
+.card-body {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+section.recent-works .card > img {
+  height: 250px;
+  width: 360px;
+}
+
+.card-title {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.badge {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: var(--black);
+  background: #ebf0ee;
+}
+
+.btn {
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background: var(--green);
+}
+
+.btn:hover {
+  background: #36b37f;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.btn:active {
+  background: #008552;
+  color: #fff;
+}
+
+section.about .card {
+  min-height: 400px;
+}
+
+section.about .card .icon-wrapper {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.about .card img {
+  height: 48px;
+  width: 48px;
+}
+
+.form-p {
+  font-size: 30px;
+  line-height: 52px;
+}
+
+.contact-frame-2 {
+  height: 100px;
+  z-index: -1;
+  left: 250px;
+  top: 450px;
+}
+
+.contact-frame-1 {
+  height: 350px;
+  z-index: -1;
+  top: 100px;
+}
+
+.contact-frame-3 {
+  height: 370px;
+  z-index: -1;
+}
+
+#floatingTextarea2 {
+  height: 120px;
+}
