@@ -15,3 +15,53 @@ body {
 .headline {
   background: url("images/background.svg") no-repeat center center;
 }
+
+
+.card {
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  background: #ebf0ee;
+}
+
+.card-body {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.card > img {
+  height: 250px;
+  width: 360px;
+}
+
+.card-title {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.badge {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: var(--black);
+  background: #ebf0ee;
+}
+
+.btn {
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background: var(--green);
+}
+
+.btn:hover {
+  background: #36b37f;
+  color: #fff;
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.btn:active {
+  background: #008552;
+  color: #fff;
+}
