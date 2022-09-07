@@ -1,6 +1,6 @@
 :root{
-    --black: #172b4d;
-    --green: #36b37e;
+  --black: #172b4d;
+  --green: #36b37e;
 }
 
 body {
@@ -9,9 +9,9 @@ body {
 }
 
 .color-green {
-    color: var(--green);
+  color: var(--green);
 }
 
-.wrapper {
-    background: url("images/background.svg") no-repeat center center;
+.headline {
+  background: url("images/background.svg") no-repeat center center;
 }
