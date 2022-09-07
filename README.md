@@ -10,17 +10,14 @@
 - HTML5
 - CSS
 - Visual Studio Code 
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- Bootstrap
 
 ### Prerequisites
 - Git
 - Any Browser
 ### Setup
 ```bash
-git clone https://github.com/udev-21/portfolio
+git clone https://github.com/udev-21/bootstrap-portfolio
 ```
 
 
