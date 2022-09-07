@@ -1,0 +1,17 @@
+:root{
+    --black: #172b4d;
+    --green: #36b37e;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+
+.color-green {
+    color: var(--green);
+}
+
+.wrapper {
+    background: url("images/background.svg") no-repeat center center;
+}
